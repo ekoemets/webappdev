@@ -2,5 +2,68 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', serif;
+}
+
+.main-background {
+    background: rgb(23, 119, 189);
+    background: linear-gradient(180deg, rgba(23, 119, 189, 1) 0%, rgba(25, 149, 193, 1) 50%, rgba(65, 191, 223, 1) 100%);
+}
+
+.btn {
+    font-family: 'Roboto', serif;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    font-size: medium;
+    background-color: #1666b6;
+    display: inline-block;
+    border: 1px solid #135597;
+    border-radius: 3px;
+    padding: 8px 20px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #135291;
+}
+
+.input-default {
+    height: 30px;
+    font-size: 15px;
+    margin-bottom: 1rem;
+    padding: 18px 15px;
+    border: 1.5px solid rgb(125, 125, 125);
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto', serif;
+}
+
+.input-default:focus {
+    outline: none;
+    border-color: #135291;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.mb-4 {
+    margin-bottom: 2.5rem;
+}
+
+.mb-5 {
+    margin-bottom: 3rem;
+}
+
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.my-2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
