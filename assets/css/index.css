@@ -1,0 +1,53 @@
+html, body {
+    background-color: rgb(30, 136, 185);
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    width: 100%;
+    background-color: #ffffff;
+
+    
+}
+
+nav div{
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+nav button {
+    background-color: rgb(30, 136, 185);
+    color: white;
+    font-size: 16px;
+    box-shadow: 1px 1px #b6acac;
+}
+
+
+input {
+    width: 8cm;
+    height: 0.5cm;
+    box-shadow: 1px 1px  #b6acac;
+    
+}
+
+.inside {
+    width:80%;
+    margin-right:auto;
+    margin-left:auto;
+    background: #ffffff;
+    height: 100%;
+}
+
+
+
+  
+
+
