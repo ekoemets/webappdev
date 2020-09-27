@@ -91,7 +91,7 @@ nav>.input-group>.input-default {
     width: 100%;
 }
 
-.post>.plot {
+.upper~.plot {
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 28px;
