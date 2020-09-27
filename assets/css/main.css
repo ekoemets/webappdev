@@ -8,6 +8,8 @@ body {
 .main-background {
     background: rgb(23, 119, 189);
     background: linear-gradient(180deg, rgba(23, 119, 189, 1) 0%, rgba(25, 149, 193, 1) 50%, rgba(65, 191, 223, 1) 100%);
+    height: max-content;
+    background-repeat: no-repeat;
 }
 
 .btn {
